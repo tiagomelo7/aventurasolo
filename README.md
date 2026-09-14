@@ -13,3 +13,18 @@ O projeto apresenta os relacionamentos entre as classes de um sistema de aventur
 O encapsulamento é garantido principalmente pelo uso de campos private, validações nos construtores e uso estratégico de final. Estados mutáveis, como energia, missão ativa, itens e estado da missão, só podem ser alterados através de métodos que aplicam as regras do domínio, como receberDano(), recuperar(), aceitarMissao(), iniciar() e concluir(). O Inventario também utiliza cópia defensiva no método itens(), evitando que código externo altere diretamente sua lista interna.
 
 Por fim, o código utiliza diferentes formas de tratamento de situações inválidas conforme o significado de cada caso: exceções para argumentos inválidos, clamping para situações normais como dano que reduziria a energia abaixo de zero e booleanos para operações do inventário que podem simplesmente falhar. Além disso, TipoItem, Raridade e EstadoMissao são implementados como enum, garantindo que somente valores previamente definidos possam existir e evitando erros causados por strings inválidas.
+
+
+
+Diagrama da Atividade 2 - 
+
+<img width="1920" height="1080" alt="DIAGRAMADECLASSEAVENTURASOLO2" src="https://github.com/user-attachments/assets/a1b4e77f-72b8-4396-8899-7fb9d571adca" />
+
+as classes que análisei foram aventureiro e item. dessa forma, a conclusão que >
+Dessa forma, foram criados os arquétipos que estedem Aventureiro, onde cada um >
+
+A outra conclusão que cheguei foi em não transformar item numa classe abstrata,>
+
+
+
+
