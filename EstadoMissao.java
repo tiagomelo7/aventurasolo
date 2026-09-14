@@ -1,0 +1,1 @@
+public enum EstadoMissao{DISPONIVEL,EM_ANDAMENTO,CONCLUIDA}
