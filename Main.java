@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args){
-        System.out.println("tudo ok, se ligue aí");
+        System.out.println("tudo ok, faça sua play!");
 
-        Aventureiro aventureiro = new Aventureiro("melotigas", 3);
+        Aventureiro aventureiro = new Guerreiro("melotigas", 3);
         System.out.println("Aventureiro criado: " + aventureiro.nome() + " | Energia: " + aventureiro.energia());
         System.out.println("Capacidade do Inventário: " + aventureiro.inventario().capacidade());
+        
+        aventureiro.atacar();
 
-      
         Item espada = new Item("Espada de Aço", TipoItem.ARMA, Raridade.RARO, 150);
         Item pocao = new Item("Poção de Cura", TipoItem.CONSUMIVEL, Raridade.COMUM, 25);
         Item arcoeflecha = new Item("Arco e Flecha", TipoItem.ARMA, Raridade.RARO, 100);

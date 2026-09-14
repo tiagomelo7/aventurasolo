@@ -1,11 +1,11 @@
-public final class Aventureiro {
+public abstract class Aventureiro {
     public static final int ENERGIA_MAXIMA = 100;
     private final String nome;
     private int energia;
     private final Inventario inventario;
     private Missao missaoAtiva;
 
-    public Aventureiro(String nome, int capacidadeInventario) {
+    protected Aventureiro(String nome, int capacidadeInventario) {
         if (nome == null || nome.trim().isBlank()) {
             throw new IllegalArgumentException("O nome do aventureiro não pode ser vazio");
         }
@@ -37,6 +37,9 @@ public final class Aventureiro {
         }
         this.missaoAtiva = missao;
     }
+
+    // Comportamento que varia por arquétipo
+    public abstract void atacar();
 
     public String nome() {
         return nome;
