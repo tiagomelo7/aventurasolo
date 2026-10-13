@@ -1,0 +1,16 @@
+br/com/rpg/rpg/model/EstadoMissao.class
+br/com/rpg/rpg/model/Mago.class
+br/com/rpg/rpg/model/Raridade.class
+br/com/rpg/rpg/model/TipoItem.class
+br/com/rpg/rpg/model/Inventario.class
+br/com/rpg/dto/AventureiroResposta.class
+br/com/rpg/rpg/RpgMvcApplication.class
+br/com/rpg/rpg/model/Recompensa.class
+br/com/rpg/rpg/model/Aventureiro.class
+br/com/rpg/rpg/service/AventureiroService.class
+br/com/rpg/rpg/controller/AventureiroController.class
+br/com/rpg/rpg/model/Guerreiro.class
+br/com/rpg/rpg/model/Item.class
+br/com/rpg/dto/CriarAventureiroRequest.class
+br/com/rpg/rpg/model/Missao.class
+br/com/rpg/rpg/model/Arqueiro.class

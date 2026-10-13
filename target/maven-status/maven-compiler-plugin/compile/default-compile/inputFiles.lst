@@ -1,0 +1,16 @@
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/dto/AventureiroResposta.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/dto/CriarAventureiroRequest.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/RpgMvcApplication.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/controller/AventureiroController.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Arqueiro.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Aventureiro.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/EstadoMissao.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Guerreiro.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Inventario.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Item.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Mago.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Missao.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Raridade.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/Recompensa.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/model/TipoItem.java
+/home/tiagomelo/Downloads/rpg (1).mvc/src/main/java/br/com/rpg/rpg/service/AventureiroService.java
